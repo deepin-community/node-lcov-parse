@@ -1,0 +1,33 @@
+Source: node-lcov-parse
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-buildinfo
+ , dpkg-dev (>= 1.17.14)
+ , nodejs
+ , node-vows <!nocheck>
+Standards-Version: 4.5.1
+Homepage: https://github.com/davglass/lcov-parse#readme
+Vcs-Git: https://salsa.debian.org/js-team/node-lcov-parse.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-lcov-parse
+
+Package: node-lcov-parse
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: Parse lcov results files and return JSON
+ This modules allows ones to parse lcov files and to return json reprensentation
+ of these files.
+ .
+ lcov is a graphical front-end for GCC's coverage testing tool gcov.
+ It collects gcov data for multiple source files and creates HTML pages
+ containing the source code annotated with coverage information. It
+ also adds overview pages for easy navigation within the file
+ structure.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,40 @@
+node-lcov-parse (1.0.0+20170612git80d039574ed9-5) unstable; urgency=medium
+
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on nodejs.
+    + node-lcov-parse: Drop versioned constraint on nodejs in Depends.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 09:18:54 +0100
+
+node-lcov-parse (1.0.0+20170612git80d039574ed9-4) unstable; urgency=medium
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+  * Apply multi-arch hints.
+    + node-lcov-parse: Add Multi-Arch: foreign.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 28 Aug 2021 23:30:02 +0100
+
+node-lcov-parse (1.0.0+20170612git80d039574ed9-3) unstable; urgency=medium
+
+  * Move to /usr/share
+  * Bumpdebhelper and policy (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 16 Sep 2019 21:54:58 +0200
+
+node-lcov-parse (1.0.0+20170612git80d039574ed9-2) unstable; urgency=medium
+
+  * Move to salsa
+  * Bump compat and policy
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 22 May 2018 22:18:08 +0200
+
+node-lcov-parse (1.0.0+20170612git80d039574ed9-1) unstable; urgency=low
+
+  * Initial release (Closes: #873189)
+
+ -- Bastien Roucariès <rouca@debian.org>  Fri, 25 Aug 2017 14:42:20 +0200

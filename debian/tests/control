@@ -1,0 +1,5 @@
+Tests: require
+Depends: node-lcov-parse, nodejs (>= 6)
+
+Tests: runtestsuite
+Depends: node-lcov-parse, node-vows
